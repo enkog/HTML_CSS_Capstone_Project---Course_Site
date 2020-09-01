@@ -130,11 +130,9 @@ sup {
   top: -.5em; }
 
 a {
-  color: #007bff;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #0056b3;
     text-decoration: underline; }
 
 a:not([href]):not([class]) {
@@ -4893,7 +4891,7 @@ button.bg-dark:focus {
   border-color: #ffc107 !important; }
 
 .border-danger {
-  border-color: #dc3545 !important; }
+  border-color: #ec5242 !important; }
 
 .border-light {
   border-color: #f8f9fa !important; }

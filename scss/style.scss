@@ -1,6 +1,29 @@
 $dark-shade: #272a31;
 $lighter: #d3d3d3;
 $basic-color: #ec5242;
+$max-width: 1200px;
 
+.container {
+    width: $max-width;
+}
+
+#top-nav {
+    background: $dark-shade;
+}
+
+#bottom-nav {
+    a {
+        color: $dark-shade;
+        font-weight: 700;
+        &:hover {
+            color: $basic-color;
+        }
+    }
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
 
 

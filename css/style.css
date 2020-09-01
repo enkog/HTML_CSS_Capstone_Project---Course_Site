@@ -1,0 +1,15 @@
+.container {
+  width: 1200px; }
+
+#top-nav {
+  background: #272a31; }
+
+#bottom-nav a {
+  color: #272a31;
+  font-weight: 700; }
+  #bottom-nav a:hover {
+    color: #ec5242; }
+
+.logo {
+  width: 50px;
+  height: 50px; }
