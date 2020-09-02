@@ -26,4 +26,32 @@ $max-width: 1200px;
     height: 50px;
 }
 
+.showcase {
+    background: url('../img/scott-graham-5fNmWej4tAA-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 530px;
+
+    .dark-overlay {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.7);
+        min-height: 530px;
+        left: 0;
+    }
+
+    h3 {
+        color: $basic-color;
+    }
+
+    .showcase-btn {
+        color: $dark-shade;
+    }
+
+    &:hover {
+        color: $basic-color;
+    }
+}
+
+
 
