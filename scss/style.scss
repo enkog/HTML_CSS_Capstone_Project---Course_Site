@@ -44,13 +44,45 @@ $max-width: 1200px;
         color: $basic-color;
     }
 
-    .showcase-btn {
-        color: $dark-shade;
-    }
-
-    &:hover {
+     &:hover {
         color: $basic-color;
     }
+}
+
+.tutorials-section {
+    background: $lighter;
+
+    ul {
+        list-style: none;
+    }
+
+    .card {
+        background: $dark-shade;
+
+        &:hover {
+            border: 3px solid $basic-color;
+        }
+
+        .fab {
+            color: $basic-color;
+        }
+
+        .card-title {
+            color: $basic-color;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        .card-text {
+            color: $lighter;
+        }
+
+        .tut-link {
+            color: $dark-shade;
+        }
+    }
+
+
 }
 
 

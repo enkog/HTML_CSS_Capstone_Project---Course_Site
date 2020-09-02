@@ -27,7 +27,24 @@
     left: 0; }
   .showcase h3 {
     color: #ec5242; }
-  .showcase .showcase-btn {
-    color: #272a31; }
   .showcase:hover {
     color: #ec5242; }
+
+.tutorials-section {
+  background: #d3d3d3; }
+  .tutorials-section ul {
+    list-style: none; }
+  .tutorials-section .card {
+    background: #272a31; }
+    .tutorials-section .card:hover {
+      border: 3px solid #ec5242; }
+    .tutorials-section .card .fab {
+      color: #ec5242; }
+    .tutorials-section .card .card-title {
+      color: #ec5242;
+      font-weight: 500;
+      font-size: 18px; }
+    .tutorials-section .card .card-text {
+      color: #d3d3d3; }
+    .tutorials-section .card .tut-link {
+      color: #272a31; }
