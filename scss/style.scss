@@ -143,3 +143,17 @@ $max-width: 1200px;
     color: $lighter;
     height: 200px;
 }
+
+section {
+
+    .section-header {
+        color: $basic-color;
+    }
+
+    .img-resize {
+        width: 300px;
+        height: 180px;
+        opacity: 0.8;
+    }
+}
+

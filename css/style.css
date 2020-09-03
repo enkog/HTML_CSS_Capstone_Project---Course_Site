@@ -85,3 +85,10 @@
   background: #272a31;
   color: #d3d3d3;
   height: 200px; }
+
+section .section-header {
+  color: #ec5242; }
+section .img-resize {
+  width: 300px;
+  height: 180px;
+  opacity: 0.8; }
