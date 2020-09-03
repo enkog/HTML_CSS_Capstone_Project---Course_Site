@@ -105,5 +105,23 @@ $max-width: 1200px;
     }
 }
 
+.border-line {
+    position: absolute;
+    height: 2px;
+    width: 5%;
+    background-color: #e96658;
+    left: 47.5%;
+}
 
+.footer-top {
+    background: $lighter;
 
+    img {
+        height:50px;
+        width: 50px;
+    }
+}
+
+.footer-bottom {
+    background: $dark-shade;
+}
