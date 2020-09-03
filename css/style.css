@@ -29,6 +29,12 @@
     color: #ec5242; }
   .showcase:hover {
     color: #ec5242; }
+  .showcase .showcase-link {
+    color: #ec5242; }
+  .showcase .showcase-content a {
+    color: #ec5242; }
+  .showcase .showcase-content .about-line {
+    top: 160px; }
 
 .tutorials-section {
   background: #d3d3d3; }

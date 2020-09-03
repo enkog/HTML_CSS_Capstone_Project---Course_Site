@@ -15,9 +15,10 @@ $max-width: 1200px;
     a {
         color: $dark-shade;
         font-weight: 700;
+
         &:hover {
             color: $basic-color;
-        }
+        }        
     }
 }
 
@@ -46,6 +47,21 @@ $max-width: 1200px;
 
      &:hover {
         color: $basic-color;
+    }
+
+    .showcase-link {
+        color: $basic-color;
+    }
+
+    .showcase-content {
+        
+        a {
+            color: $basic-color;
+        }
+
+        .about-line {
+            top: 160px;
+        }
     }
 }
 
