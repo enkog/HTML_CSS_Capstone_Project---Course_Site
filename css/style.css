@@ -69,10 +69,13 @@
   left: 47.5%; }
 
 .footer-top {
-  background: #d3d3d3; }
+  background: #d3d3d3;
+  height: 200px; }
   .footer-top img {
     height: 50px;
     width: 50px; }
 
 .footer-bottom {
-  background: #272a31; }
+  background: #272a31;
+  color: #d3d3d3;
+  height: 200px; }

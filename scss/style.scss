@@ -115,7 +115,7 @@ $max-width: 1200px;
 
 .footer-top {
     background: $lighter;
-
+    height: 200px;
     img {
         height:50px;
         width: 50px;
@@ -124,4 +124,6 @@ $max-width: 1200px;
 
 .footer-bottom {
     background: $dark-shade;
+    color: $lighter;
+    height: 200px;
 }
