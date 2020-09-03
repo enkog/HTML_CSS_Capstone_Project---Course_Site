@@ -31,12 +31,12 @@ $max-width: 1200px;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 530px;
+    min-height: 540px;
 
     .dark-overlay {
         position: absolute;
         background: rgba(0, 0, 0, 0.7);
-        min-height: 530px;
+        min-height: 540px;
         left: 0;
     }
 
@@ -79,10 +79,30 @@ $max-width: 1200px;
 
         .tut-link {
             color: $dark-shade;
+
+            .line {
+                background: $basic-color;
+            }
         }
     }
+}
 
+.instructors-section {
+    background: $dark-shade;
+    color: $lighter;
 
+    img {
+        height: 75%;
+        width: 180px;
+        left: 18px;
+    }
+
+    .media-body {
+
+        small {
+            color: $basic-color;
+        }
+    }
 }
 
 

@@ -19,11 +19,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 530px; }
+  min-height: 540px; }
   .showcase .dark-overlay {
     position: absolute;
     background: rgba(0, 0, 0, 0.7);
-    min-height: 530px;
+    min-height: 540px;
     left: 0; }
   .showcase h3 {
     color: #ec5242; }
@@ -48,3 +48,15 @@
       color: #d3d3d3; }
     .tutorials-section .card .tut-link {
       color: #272a31; }
+      .tutorials-section .card .tut-link .line {
+        background: #ec5242; }
+
+.instructors-section {
+  background: #272a31;
+  color: #d3d3d3; }
+  .instructors-section img {
+    height: 75%;
+    width: 180px;
+    left: 18px; }
+  .instructors-section .media-body small {
+    color: #ec5242; }
