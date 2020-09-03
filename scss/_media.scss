@@ -6,3 +6,45 @@
 .media-body {
   flex: 1;
 }
+
+@media (max-width: 767px) {
+
+  .showcase {
+    min-height: 500px;
+
+    .dark-overlay {
+      min-height: 500px;
+    }
+  }
+}
+
+@media (max-width:576px) {
+
+  .showcase {
+    min-height: 400px;
+
+    .dark-overlay {
+      min-height: 400px;
+    }
+
+    .showcase-content {
+
+      h5 {
+        font-size: 20px;
+      }
+
+    }
+    
+
+    
+    
+  }
+  .footer-bottom {
+
+    p {
+      display: none;
+    }
+  }
+}
+
+
