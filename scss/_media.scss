@@ -55,5 +55,16 @@
 
  }
 
+.ticket-showcase {
 
+  h1,
+  .border-line,
+  .about-line {
+    display: none;
+  }
+
+  table {
+    font-size: 12px;
+  }
+}
 

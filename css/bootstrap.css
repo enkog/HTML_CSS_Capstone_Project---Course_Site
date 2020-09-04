@@ -26,7 +26,7 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
-  --breakpoint-xs: 0 ;
+  --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
@@ -3953,6 +3953,13 @@ input[type="button"].btn-block {
 
   .footer-bottom p {
     display: none; } }
+.ticket-showcase h1,
+.ticket-showcase .border-line,
+.ticket-showcase .about-line {
+  display: none; }
+.ticket-showcase table {
+  font-size: 12px; }
+
 .list-group {
   display: flex;
   flex-direction: column;

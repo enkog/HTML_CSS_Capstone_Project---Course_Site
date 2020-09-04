@@ -45,7 +45,7 @@
 .ticket-line {
   height: 50px; }
 
-table {
+.table {
   border: 3px solid #ec5242; }
 
 .step {
@@ -141,3 +141,9 @@ section .img-resize {
 
   .footer-bottom p {
     display: none; } }
+.ticket-showcase h1,
+.ticket-showcase .border-line,
+.ticket-showcase .about-line {
+  display: none; }
+.ticket-showcase table {
+  font-size: 12px; }
