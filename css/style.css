@@ -51,7 +51,7 @@
 .step {
   color: #ec5242; }
   .step:before {
-    content: '*'; }
+    content: "*"; }
 
 .tick-p {
   border-radius: 25px; }
@@ -113,6 +113,12 @@ section .img-resize {
   height: 180px;
   opacity: 0.8; }
 
+.students {
+  padding-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center; }
+
 .media {
   display: flex;
   align-items: flex-start; }
@@ -126,9 +132,8 @@ section .img-resize {
     .showcase .dark-overlay {
       min-height: 500px; }
 
-  .our-students {
-    flex-direction: column;
-    justify-content: center; } }
+  .students {
+    flex-direction: column; } }
 @media (max-width: 576px) {
   .showcase {
     min-height: 400px; }

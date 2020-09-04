@@ -3,190 +3,191 @@ $lighter: #d3d3d3;
 $basic-color: #ec5242;
 
 #top-nav {
-    background: $dark-shade;
+  background: $dark-shade;
 }
 
 #bottom-nav {
-    a {
-        color: $dark-shade;
-        font-weight: 700;
+  a {
+    color: $dark-shade;
+    font-weight: 700;
 
-        &:hover {
-            color: $basic-color;
-        }        
+    &:hover {
+      color: $basic-color;
     }
+  }
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .showcase {
-    background: url('../img/scott-graham-5fNmWej4tAA-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background: url("../img/scott-graham-5fNmWej4tAA-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 540px;
+  position: relative;
+
+  .dark-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
     min-height: 540px;
-    position: relative;
+    left: 0;
+  }
 
-    .dark-overlay {
-        position: absolute;
-        background: rgba(0, 0, 0, 0.7);
-        min-height: 540px;
-        left: 0;
+  h6 {
+    color: $basic-color;
+  }
+
+  &:hover {
+    color: $basic-color;
+  }
+
+  .showcase-link {
+    color: $basic-color;
+  }
+
+  .showcase-content {
+    a {
+      color: $basic-color;
     }
 
-    h6 {
-        color: $basic-color;
+    .about-line {
+      top: 120px;
     }
-
-     &:hover {
-        color: $basic-color;
-    }
-
-    .showcase-link {
-        color: $basic-color;
-    }
-
-    .showcase-content {
-        
-        a {
-            color: $basic-color;
-        }
-
-        .about-line {
-            top: 120px;
-        }
-
-    }
+  }
 }
 
 .next-ticket {
-    position: absolute;
-    left: 48%;
-    bottom: -22px;
+  position: absolute;
+  left: 48%;
+  bottom: -22px;
 
-    img {
-        height: 50px;
-        width: 50px;
-    }
+  img {
+    height: 50px;
+    width: 50px;
+  }
 }
 
 .ticket-line {
-    height: 50px;
+  height: 50px;
 }
 
 .table {
-    border: 3px solid $basic-color;
+  border: 3px solid $basic-color;
 }
 
 .step {
-    color: $basic-color;
+  color: $basic-color;
 
-    &:before {
-        content: '*';
-    }
+  &:before {
+    content: "*";
+  }
 }
 
 .tick-p {
-    border-radius: 25px;
+  border-radius: 25px;
 }
 
-
 .tutorials-section {
-    background: $lighter;
+  background: $lighter;
 
-    ul {
-        list-style: none;
+  ul {
+    list-style: none;
+  }
+
+  .card {
+    background: $dark-shade;
+
+    &:hover {
+      border: 3px solid $basic-color;
     }
 
-    .card {
-        background: $dark-shade;
-
-        &:hover {
-            border: 3px solid $basic-color;
-        }
-
-        .fab {
-            color: $basic-color;
-        }
-
-        .card-title {
-            color: $basic-color;
-            font-weight: 500;
-            font-size: 18px;
-        }
-
-        .card-text {
-            color: $lighter;
-        }
-
-        .tut-link {
-            color: $dark-shade;
-
-            .line {
-                background: $basic-color;
-            }
-        }
+    .fab {
+      color: $basic-color;
     }
+
+    .card-title {
+      color: $basic-color;
+      font-weight: 500;
+      font-size: 18px;
+    }
+
+    .card-text {
+      color: $lighter;
+    }
+
+    .tut-link {
+      color: $dark-shade;
+
+      .line {
+        background: $basic-color;
+      }
+    }
+  }
 }
 
 .instructors-section {
-    background: $dark-shade;
-    color: $lighter;
+  background: $dark-shade;
+  color: $lighter;
 
-    img {
-        height: 75%;
-        width: 180px;
-        left: 18px;
+  img {
+    height: 75%;
+    width: 180px;
+    left: 18px;
+  }
+
+  .media-body {
+    small {
+      color: $basic-color;
     }
-
-    .media-body {
-
-        small {
-            color: $basic-color;
-        }
-    }
+  }
 }
 
 .border-line {
-    position: absolute;
-    height: 2px;
-    width: 5%;
-    background-color: #e96658;
-    left: 47.5%;
+  position: absolute;
+  height: 2px;
+  width: 5%;
+  background-color: #e96658;
+  left: 47.5%;
 }
 
 .footer-top {
-    background: $lighter;
-    height: 240px;
+  background: $lighter;
+  height: 240px;
 
-    img {
-        height:50px;
-        width: 50px;
-    }
+  img {
+    height: 50px;
+    width: 50px;
+  }
 }
 
 .footer-bottom {
-    background: $dark-shade;
-    color: $lighter;
-    height: 240px;
+  background: $dark-shade;
+  color: $lighter;
+  height: 240px;
 }
 
 section {
+  .section-header {
+    color: $basic-color;
+  }
 
-    .section-header {
-        color: $basic-color;
-    }
+  .img-resize {
+    width: 300px;
+    height: 180px;
+    opacity: 0.8;
+  }
+}
 
-    .img-resize {
-        width: 300px;
-        height: 180px;
-        opacity: 0.8;
-    }
-
+.students {
+  padding-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
 }
 
 // Import Media Queries
-@import 'media'
+@import "media";

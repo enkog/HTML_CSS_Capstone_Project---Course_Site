@@ -3938,9 +3938,8 @@ input[type="button"].btn-block {
     .showcase .dark-overlay {
       min-height: 500px; }
 
-  .our-students {
-    flex-direction: column;
-    justify-content: center; } }
+  .students {
+    flex-direction: column; } }
 @media (max-width: 576px) {
   .showcase {
     min-height: 400px; }
