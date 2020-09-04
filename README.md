@@ -1,6 +1,6 @@
 <h1 align ="center">
   <br>
-  <a href="">
+  <a href="https://raw.githack.com/enkog/HTML_CSS_Capstone_Project---Course_Site/feature/index.html">
     <img src="img/logo.png" alt="ProLearnlogo" title="ProLearn" width="200"></a>
   <br>
       ProLearn 
@@ -9,21 +9,23 @@
 </h1>
 
 ProLearn is an online learning and teaching marketplace. This is the perfect place to take courses on web development.
-The website was originally designed by following a conference website designed by Cindy Shin in Behance.
+The website was originally designed following a conference website designed by Cindy Shin in Behance.
 
 ## Video presentation of the project
 
 [watch loom video]().
 
-<img src="">
+<img src="img/screenshots/Home-Page.jpg">
+<img src="img/screenshots/About-Page.jpg">
+<img src="img/screenshots/Tickets-Page.jpg">
 
 ## Live Demo
 
--[Home-Page](/feature/index.html)
+-[Home-Page](https://raw.githack.com/enkog/HTML_CSS_Capstone_Project---Course_Site/feature/index.html)
 
--[About-Page](/feature/about.html)
+-[About-Page](https://raw.githack.com/enkog/HTML_CSS_Capstone_Project---Course_Site/feature/about.html)
 
--[Ticket-Page](/feature/tickets.html)
+-[Ticket-Page](https://raw.githack.com/enkog/HTML_CSS_Capstone_Project---Course_Site/feature/tickets.html)
 
 ## Built With
 
@@ -59,14 +61,8 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 # Clone this repository
 $ git clone https://github.com/enkog/Course_Site
 
-# Go into the repository
-$ cd course-site
-
 # Install dependencies
 $ npm install
-
-# Run the app
-$ npm start
 ```
 
 Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
@@ -82,7 +78,7 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 
 ## Show your support
 
-Give me a ⭐ Star on GitHub — it helps!
+Give me a ⭐ Star on GitHub if you like this project!
 
 ## 📝 License
 

@@ -126,7 +126,7 @@ section .img-resize {
 .media-body {
   flex: 1; }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .showcase {
     min-height: 500px; }
     .showcase .dark-overlay {

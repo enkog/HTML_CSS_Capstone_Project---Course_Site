@@ -7,8 +7,7 @@
   flex: 1;
 }
 
-@media (max-width: 767px) {
-
+@media (max-width: 768px) {
   .showcase {
     min-height: 500px;
 
@@ -18,13 +17,11 @@
   }
 
   .students {
-    flex-direction: column; 
+    flex-direction: column;
   }
-
 }
 
-@media (max-width:576px) {
-
+@media (max-width: 576px) {
   .showcase {
     min-height: 400px;
 
@@ -33,30 +30,24 @@
     }
 
     .showcase-content {
-
       h5 {
         font-size: 20px;
       }
 
       .about-p {
         font-size: 12px;
+      }
     }
-
-    }  
-    
   }
 
   .footer-bottom {
-
     p {
       display: none;
     }
   }
-
- }
+}
 
 .ticket-showcase {
-
   h1,
   .border-line,
   .about-line {
@@ -67,4 +58,3 @@
     font-size: 12px;
   }
 }
-
