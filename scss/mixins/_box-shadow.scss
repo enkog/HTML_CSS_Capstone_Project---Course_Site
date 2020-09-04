@@ -5,7 +5,9 @@
     @if (length($shadow) == 1) {
       // We can pass `@include box-shadow(none);`
       $result: $shadow;
-    } @else {
+    } 
+    
+    @else {
       // Filter to avoid invalid properties for example `box-shadow: none, 1px 1px black;`
       @for $i from 1 through length($shadow) {
         @if nth($shadow, $i) != "none" {
@@ -13,6 +15,7 @@
         }
       }
     }
+    
     @if (length($result) > 0) {
       box-shadow: $result;
     }

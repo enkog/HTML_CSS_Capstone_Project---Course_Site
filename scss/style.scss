@@ -6,6 +6,12 @@ $basic-color: #ec5242;
   background: $dark-shade;
 }
 
+.showcase-content {
+  a {
+    color: $basic-color;
+  }
+}
+
 #bottom-nav {
   a {
     color: $dark-shade;
@@ -49,14 +55,8 @@ $basic-color: #ec5242;
     color: $basic-color;
   }
 
-  .showcase-content {
-    a {
-      color: $basic-color;
-    }
-
-    .about-line {
-      top: 120px;
-    }
+  .about-line {
+    top: 120px;
   }
 }
 
@@ -82,7 +82,7 @@ $basic-color: #ec5242;
 .step {
   color: $basic-color;
 
-  &:before {
+  &::before {
     content: "*";
   }
 }

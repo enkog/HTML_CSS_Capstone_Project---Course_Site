@@ -13,7 +13,7 @@ The website was originally designed following a conference website designed by C
 
 ## Video presentation of the project
 
-[watch loom video]().
+[watch loom video](https://www.loom.com/share/b444cd2cdb2e42019f55bffde86b2b21).
 
 <img src="img/screenshots/Home-Page.jpg">
 <img src="img/screenshots/About-Page.jpg">
