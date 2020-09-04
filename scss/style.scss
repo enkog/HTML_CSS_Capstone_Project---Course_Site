@@ -28,6 +28,7 @@ $basic-color: #ec5242;
     background-size: cover;
     background-attachment: fixed;
     min-height: 540px;
+    position: relative;
 
     .dark-overlay {
         position: absolute;
@@ -59,6 +60,25 @@ $basic-color: #ec5242;
         }
 
     }
+}
+
+.next-ticket {
+    position: absolute;
+    left: 48%;
+    bottom: -22px;
+
+    img {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+.ticket-line {
+    height: 50px;
+}
+
+table {
+    border: 3px solid $basic-color;
 }
 
 .step {

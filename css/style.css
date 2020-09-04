@@ -16,7 +16,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 540px; }
+  min-height: 540px;
+  position: relative; }
   .showcase .dark-overlay {
     position: absolute;
     background: rgba(0, 0, 0, 0.7);
@@ -32,6 +33,20 @@
     color: #ec5242; }
   .showcase .showcase-content .about-line {
     top: 120px; }
+
+.next-ticket {
+  position: absolute;
+  left: 48%;
+  bottom: -22px; }
+  .next-ticket img {
+    height: 50px;
+    width: 50px; }
+
+.ticket-line {
+  height: 50px; }
+
+table {
+  border: 3px solid #ec5242; }
 
 .step {
   color: #ec5242; }
