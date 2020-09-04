@@ -33,6 +33,14 @@
   .showcase .showcase-content .about-line {
     top: 120px; }
 
+.step {
+  color: #ec5242; }
+  .step:before {
+    content: '*'; }
+
+.tick-p {
+  border-radius: 25px; }
+
 .tutorials-section {
   background: #d3d3d3; }
   .tutorials-section ul {

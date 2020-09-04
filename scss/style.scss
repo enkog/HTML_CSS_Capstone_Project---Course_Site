@@ -57,9 +57,21 @@ $basic-color: #ec5242;
         .about-line {
             top: 120px;
         }
+
     }
 }
 
+.step {
+    color: $basic-color;
+
+    &:before {
+        content: '*';
+    }
+}
+
+.tick-p {
+    border-radius: 25px;
+}
 
 
 .tutorials-section {
