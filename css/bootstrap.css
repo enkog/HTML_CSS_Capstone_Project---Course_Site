@@ -26,7 +26,7 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
-  --breakpoint-xs: 0;
+  --breakpoint-xs: 0 ;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
@@ -3936,7 +3936,11 @@ input[type="button"].btn-block {
   .showcase {
     min-height: 500px; }
     .showcase .dark-overlay {
-      min-height: 500px; } }
+      min-height: 500px; }
+
+  .our-students {
+    flex-direction: column;
+    justify-content: center; } }
 @media (max-width: 576px) {
   .showcase {
     min-height: 400px; }
@@ -3944,6 +3948,8 @@ input[type="button"].btn-block {
       min-height: 400px; }
     .showcase .showcase-content h5 {
       font-size: 20px; }
+    .showcase .showcase-content .about-p {
+      font-size: 12px; }
 
   .footer-bottom p {
     display: none; } }

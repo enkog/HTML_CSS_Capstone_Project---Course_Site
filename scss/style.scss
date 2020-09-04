@@ -55,10 +55,12 @@ $basic-color: #ec5242;
         }
 
         .about-line {
-            top: 160px;
+            top: 120px;
         }
     }
 }
+
+
 
 .tutorials-section {
     background: $lighter;
@@ -151,6 +153,7 @@ section {
         height: 180px;
         opacity: 0.8;
     }
+
 }
 
 // Import Media Queries

@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark p-0" id="top-nav">
+        <nav class="navbar navbar-expand-lg navbar-dark p-0" id="top-nav">
             <div class="container">
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse-1">
                     <span class="navbar-toggler-icon"></span>
@@ -27,59 +27,52 @@
             </div>       
         </nav>
         
-        <nav class="navbar navbar-expand-sm d-none d-sm-block bg-white" id="bottom-nav">
+        <nav class="navbar navbar-expand-lg d-none d-lg-block bg-white" id="bottom-nav">
             <div class="container pr-4">
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse-2">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse-2">
-                    <a href="#" class="navbar-brand">
-                        <img src="./img/logo.webp" alt="logo" class="logo">
-                        <h3 class="d-inline">ProLearn</h3>
-                    </a>
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item px-3"><a class="nav-link" href="index.html">About</a></li>
-                        <li class="nav-item px-3"><a class="nav-link" href="#">Tutorials</a></li>
-                        <li class="nav-item px-3"><a class="nav-link" href="#">References</a></li>
-                        <li class="nav-item border border-danger"><a class="nav-link" href="#">Certificates</a></li>
-                    </ul>
-                </div>
+                <a href="#" class="navbar-brand">
+                    <img src="./img/logo.png" alt="logo" class="logo">
+                    <h3 class="d-inline">ProLearn</h3>
+                </a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-3"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item px-3"><a class="nav-link" href="#">Tutorials</a></li>
+                    <li class="nav-item px-3"><a class="nav-link" href="#">References</a></li>
+                    <li class="nav-item border border-danger"><a class="nav-link" href="#">Certificates</a></li>
+                </ul>               
             </div>
         </nav>
     </header>
 
-    <section class="showcase container-fluid w-100">
-        <div class="dark-overlay w-100">
-            <div class="showcase-content container text-white pt-2">
-                <div class="showcase-link text-right pr-4">
-                    <a href="index.html"><i class="fas fa-home px-3"></i></a>
-                    &raquo;
-                    <span>Translate</span>
-                    &raquo;
-                    <span class="pl-3">Message</span>
-                </div>
-                <div class="d-flex justify-content-center pt-5 text-center">
-                    <h1 class="display-4">ABOUT US</h1>
-                    <div class="border-line about-line"></div>
-                </div>
-                <div class="w-100 text-center d-flex justify-content-center text-secondary pt-5">
-                    <p class="w-50 h6 border bg-white p-3">
-                        ProLearn is where lifelong learners come to
-                        learn the skills they need, to land the jobs
-                        they want, to build the lives they deserve.
-                        Our mission is to train the world’s workforce
-                        in the careers of the future.
-                        We partner with leading technology companies 
-                        to learn how technology is transforming industries, 
-                        and teach the critical tech skills that companies 
-                        are looking for in their workforce. 
-                    </p>
-                </div>
-                <div class="text-center py-4">
-                    <span class="d-block">Please contact us per Email for any further questions!</span>
-                    <a href="#">prolearn@something.com&gt;</a>
-                </div>
-            </div>  
+    <section class="showcase">
+        <div class="container">
+            <div class="dark-overlay">
+                <div class="showcase-content text-white pt-2">
+                    <div class="showcase-link text-right pr-4">
+                        <a href="index.html"><i class="fas fa-home px-3"></i></a>
+                        &raquo;
+                        <span>Translate</span>
+                        &raquo;
+                        <span class="pl-3">Message</span>
+                    </div>
+                    <div class="d-flex justify-content-center pt-2 text-center">
+                        <h1 class="display-4">ABOUT US</h1>
+                        <div class="border-line about-line"></div>
+                    </div>
+                    <div class="w-100 text-center d-flex justify-content-center text-secondary pt-5">
+                        <p class="w-50 h6 border bg-white p-3 about-p">
+                            ProLearn is where lifelong learners come to
+                            learn the skills they need, to land the jobs
+                            they want, to build the lives they deserve.
+                            Our mission is to train the world’s workforce
+                            in the careers of the future.
+                        </p>
+                    </div>
+                    <div class="text-center py-4">
+                        <span class="d-block">Please contact us per Email for any further questions!</span>
+                        <a href="#">prolearn@something.com&gt;</a>
+                    </div>
+                </div>  
+            </div>
         </div>
     </section>
 
@@ -95,12 +88,12 @@
                 to pursue a mission to democratize education. 
             </p>
             <div class="d-flex justify-content-center">
-                <img src="./img/logo.webp" alt="" class="border bg-white">
+                <img src="./img/logo.png" alt="" class="border px-5 bg-white">
             </div>
         </div>
     </section>
 
-    <section class="our-students">
+    <section>
         <div class="container py-5">
             <h1 class="display-5 text-center section-header">Our Students</h1>
             <div class="border-line"></div>
@@ -108,17 +101,14 @@
                 ProLearn students are a community of global 
                 learners united in a shared goal of uplift and transformation.
             </p>
-            <div class="d-flex justify-content-center pb-5">
-                <img src="./img/instructors/Olamide.jpg" alt="olamide" class="img-resize pr-5">
-                <img src="./img/instructors/Mike.jpg" alt="mike" class="img-resize">
-            </div>
+        </div>
     </section>
 
     <footer>
         <div class="footer-bottom pt-5">
             <div class="d-flex w-75 m-auto justify-content-start align-items-center pt-5">
                 <a href="#" class="navbar-brand justify-self-start">
-                    <img src="./img/logo.webp" alt="logo" class="logo">
+                    <img src="./img/logo.png" alt="logo" class="logo">
                     <h3 class="d-inline text-white">ProLearn</h3>
                 </a>
                 <div class="pl-5">
