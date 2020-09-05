@@ -3952,10 +3952,7 @@ input[type="button"].btn-block {
 
   .footer-bottom p {
     display: none; } }
-.ticket-showcase h1,
-.ticket-showcase .border-line,
-.ticket-showcase .about-line {
-  display: none; }
+
 .ticket-showcase table {
   font-size: 12px; }
 
