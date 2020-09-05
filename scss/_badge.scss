@@ -19,7 +19,6 @@
   @include transition($badge-transition);
 
   @at-root a#{&} {
-
     @include hover-focus() {
       text-decoration: none;
     }
@@ -54,7 +53,6 @@
 
 @each $color, $value in $theme-colors {
   .badge-#{$color} {
-    
     @include badge-variant($value);
   }
 }

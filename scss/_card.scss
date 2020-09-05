@@ -12,6 +12,7 @@
   background-color: $card-bg;
   background-clip: border-box;
   border: $card-border-width solid $card-border-color;
+
   @include border-radius($card-border-radius);
 
   > hr {
@@ -19,17 +20,29 @@
     margin-left: 0;
   }
 
-  > .list-group {
+  .card-footer {
+    padding: $card-spacer-y $card-spacer-x;
+    color: $card-cap-color;
+    background-color: $card-cap-bg;
+    border-top: $card-border-width solid $card-border-color;
+    
+    &:last-child {
+      @include border-radius(0 0 $card-inner-border-radius $card-inner-border-radius);
+    }
+
+    > .list-group {
     border-top: inherit;
     border-bottom: inherit;
 
     &:first-child {
       border-top-width: 0;
+
       @include border-top-radius($card-inner-border-radius);
     }
 
-    &:last-child  {
+    &:last-child {
       border-bottom-width: 0;
+
       @include border-bottom-radius($card-inner-border-radius);
     }
   }
@@ -92,17 +105,7 @@
   }
 }
 
-.card-footer {
-  padding: $card-spacer-y $card-spacer-x;
-  color: $card-cap-color;
-  background-color: $card-cap-bg;
-  border-top: $card-border-width solid $card-border-color;
-
-  &:last-child {
-    @include border-radius(0 0 $card-inner-border-radius $card-inner-border-radius);
-  }
 }
-
 
 //
 // Header navs
@@ -148,7 +151,6 @@
   @include border-bottom-radius($card-inner-border-radius);
 }
 
-
 // Card deck
 
 .card-deck {
@@ -171,7 +173,6 @@
     }
   }
 }
-
 
 //
 // Card groups
@@ -235,7 +236,6 @@
   }
 }
 
-
 //
 // Columns
 //
@@ -258,7 +258,6 @@
   }
 }
 
-
 //
 // Accordion
 //
@@ -271,6 +270,7 @@
 
     &:not(:last-of-type) {
       border-bottom: 0;
+      
       @include border-bottom-radius(0);
     }
 
