@@ -206,7 +206,7 @@ section .img-resize {
   font-size: 12px;
 }
 
-@media (min-width: 768px) and (max-width: 991.98px)  {
+@media (min-width: 768px) and (max-width: 991.98px) {
   .showcase {
     min-height: 500px;
   }
@@ -246,14 +246,15 @@ section .img-resize {
   }
 }
 
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
   body {
     font-size: 10px;
   }
 
-  h1, h3 {
+  h1,
+  h3 {
     font-size: medium;
-  }   
+  }
 
   .showcase {
     min-height: 500px;
@@ -267,7 +268,7 @@ section .img-resize {
     width: 70px;
     height: 70px;
   }
-  
+
   .showcase-content .btn-small {
     padding: 0;
   }
