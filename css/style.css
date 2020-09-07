@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  max-width: 1440px;
+}
+
+#top-nav {
+  background: #272a31;
+}
+
+.showcase .showcase-content a {
+  color: #ec5242;
+}
+
+#bottom-nav a {
+  color: #272a31;
+  font-weight: 700;
+}
+
+#bottom-nav a:hover {
+  color: #ec5242;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.showcase {
+  background: url("../img/scott-graham-5fNmWej4tAA-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 540px;
+  position: relative;
+}
+
+.showcase .dark-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  min-height: 540px;
+  left: 0;
+}
+
+.showcase h6 {
+  color: #ec5242;
+}
+
+.showcase:hover {
+  color: #ec5242;
+}
+
+.showcase .showcase-link {
+  color: #ec5242;
+}
+
+.showcase .showcase-content .about-line {
+  top: 120px;
+}
+
+.next-ticket {
+  position: absolute;
+  left: 48%;
+  bottom: -22px;
+}
+
+.next-ticket img {
+  height: 50px;
+  width: 50px;
+}
+
+.ticket-line {
+  height: 50px;
+}
+
+.table {
+  border: 3px solid #ec5242;
+}
+
+.step {
+  color: #ec5242;
+}
+
+.step::before {
+  content: "*";
+}
+
+.tick-p {
+  border-radius: 25px;
+}
+
+.tutorials-section {
+  background: #d3d3d3;
+}
+
+.tutorials-section ul {
+  list-style: none;
+}
+
+.tutorials-section .card {
+  background: #272a31;
+}
+
+.tutorials-section .card:hover {
+  border: 3px solid #ec5242;
+}
+
+.tutorials-section .card .fab {
+  color: #ec5242;
+}
+
+.tutorials-section .card .card-title {
+  color: #ec5242;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.tutorials-section .card .card-text {
+  color: #d3d3d3;
+}
+
+.tutorials-section .card .tut-link {
+  color: #272a31;
+}
+
+.tutorials-section .card .tut-link .line {
+  background: #ec5242;
+}
+
+.instructors-section {
+  background: #272a31;
+  color: #d3d3d3;
+}
+
+.instructors-section img {
+  height: 75%;
+  width: 180px;
+  left: 18px;
+}
+
+.instructors-section .media-body small {
+  color: #ec5242;
+}
+
+.border-line {
+  position: absolute;
+  height: 2px;
+  width: 5%;
+  background-color: #e96658;
+  left: 47.5%;
+}
+
+.footer-top {
+  background: #d3d3d3;
+  height: 240px;
+}
+
+.footer-top img {
+  height: 50px;
+  width: 50px;
+}
+
+.footer-bottom {
+  background: #272a31;
+  color: #d3d3d3;
+  height: 240px;
+}
+
+section .section-header {
+  color: #ec5242;
+}
+
+section .img-resize {
+  width: 300px;
+  height: 180px;
+  opacity: 0.8;
+}
+
+.students {
+  padding-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.students img {
+  width: 350px;
+  height: 200px;
+}
+
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.media-body {
+  flex: 1;
+}
+
+.ticket-showcase table {
+  font-size: 12px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .showcase {
+    min-height: 500px;
+  }
+
+  .showcase .dark-overlay {
+    min-height: 500px;
+  }
+
+  .students {
+    flex-direction: column;
+  }
+
+  .ticket-showcase h1 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .showcase {
+    min-height: 400px;
+  }
+
+  .showcase .dark-overlay {
+    min-height: 400px;
+  }
+
+  .showcase .showcase-content h1 {
+    font-size: 20px;
+  }
+
+  .showcase .showcase-content .about-p {
+    font-size: 12px;
+  }
+
+  .footer-bottom p {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body {
+    font-size: 10px;
+  }
+
+  h1,
+  h3 {
+    font-size: medium;
+  }
+
+  .showcase {
+    min-height: 500px;
+  }
+
+  .showcase .dark-overlay {
+    min-height: 500px;
+  }
+
+  .logo-small {
+    width: 70px;
+    height: 70px;
+  }
+
+  .showcase-content .btn-small {
+    padding: 0;
+  }
+
+  .footer-bottom a,
+  .footer-bottom span {
+    display: none;
+  }
+
+  .students img {
+    width: 150px;
+    height: 100px;
+  }
+}
