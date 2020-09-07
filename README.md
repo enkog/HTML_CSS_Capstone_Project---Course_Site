@@ -1,10 +1,9 @@
 <h1 align ="center">
   <br>
   <a href="https://raw.githack.com/enkog/HTML_CSS_Capstone_Project---Course_Site/feature/index.html">
-    <img src="img/logo.png" alt="ProLearnlogo" title="ProLearn" width="200"></a>
+    <img src="img/logo.png" alt="ProLearnlogo" title="ProLearn" width="100"></a>
   <br>
-      ProLearn 
-      
+      ProLearn   
   <br>
 </h1>
 
@@ -15,17 +14,12 @@ The website was originally designed following a conference website designed by C
 
 [watch loom video](https://www.loom.com/share/b444cd2cdb2e42019f55bffde86b2b21).
 
-<img src="img/screenshots/Home-Page.jpg">
-<img src="img/screenshots/About-Page.jpg">
-<img src="img/screenshots/Tickets-Page.jpg">
+<img src="img/screenshots/screenshot.png">
+
 
 ## Live Demo
 
--[Home-Page](https://raw.githack.com/enkog/HTML_CSS_Capstone_Project---Course_Site/feature/index.html)
-
--[About-Page](https://raw.githack.com/enkog/HTML_CSS_Capstone_Project---Course_Site/feature/about.html)
-
--[Ticket-Page](https://raw.githack.com/enkog/HTML_CSS_Capstone_Project---Course_Site/feature/tickets.html)
+-[Live demo](https://raw.githack.com/enkog/HTML_CSS_Capstone_Project---Course_Site/feature/index.html)
 
 ## Built With
 
